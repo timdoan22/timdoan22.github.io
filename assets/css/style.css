@@ -560,6 +560,8 @@ section {
   }
   .about-description {
     font-size: 12px;
+    margin-left: 6%;
+    width: 160%;
   }
 }
 
