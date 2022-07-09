@@ -545,8 +545,8 @@ section {
 
 @media (max-width: 550px) {
   .portfolio-img  {
-    height: 240px;
-    width: 340px;
+    height: 160px;
+    width: 240px;
   }
 }
 
@@ -562,9 +562,6 @@ section {
     font-size: 12px;
   }
 }
-
-
-
 
 /*--------------------------------------------------------------
 # Contact
