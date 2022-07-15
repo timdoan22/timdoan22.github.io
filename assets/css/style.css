@@ -550,6 +550,21 @@ section {
   }
 }
 
+@media (max-width: 400px) {
+  .img-fluid  {
+    height: 130px;
+    width: 150px;
+  }
+  .about-container {
+    width: 80%;
+  }
+  .about-description {
+    font-size: 12px;
+  }
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Contact
