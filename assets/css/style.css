@@ -152,7 +152,6 @@ h6 {
   }
 }
 
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -279,7 +278,6 @@ h6 {
   background-color: #0563bb;
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -360,7 +358,6 @@ h6 {
     line-height: 24px;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Sections General
@@ -449,4 +446,176 @@ section {
 .img-fluid {
   border-radius: 50%;
   text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+
+.tech-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.tech-icons {
+  flex-direction: row;
+  justify-items: auto;
+  align-items: center;
+  flex-basis: auto;
+  font-size: 60px;
+  color: #0D4C92;
+}
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-img {
+  height: 340px;
+  width: 540px;
+}
+
+@media (max-width: 1400px) {
+  .portfolio-img  {
+    height: 300px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .portfolio-img  {
+    justify-content: center;
+    height: 240px;
+    width: 400px;
+  }
+  .img-fluid {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 991px) {
+  .profile-img-container {
+    width: 50%;
+    margin: auto;
+  }
+  .content {
+    width: 50%;
+  }
+  .about-description {
+    margin-left: -28%;
+    width: 130%;
+  }
+  .portfolio {
+    width: 50%;
+    margin: auto;
+  }
+  .portfolio-img  {
+    height: 340px;
+    width: 500px;
+  }
+  .img-fluid {
+    margin: 20% 0 0 4%;
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-img  {
+    height: 300px;
+    width: 440px;
+  }
+  .about-description {
+    margin-left: -10%;
+    font-size: 13px;
+    margin-right: 8%;
+    width: 96%;
+  }
+  .img-fluid {
+    margin: 30% 0 0 6%;
+  }
+}
+
+@media (max-width: 550px) {
+  .portfolio-img  {
+    height: 240px;
+    width: 340px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+.contact-form {
+  width: 80%;
+  margin: auto;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #f7f8f9;
+  color: #45505b;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #0563bb;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #0678e3;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
 }
