@@ -480,6 +480,7 @@ section {
 .portfolio-img {
   height: 340px;
   width: 540px;
+  object-fit: contain;
 }
 
 @media (max-width: 1400px) {
@@ -545,8 +546,8 @@ section {
 
 @media (max-width: 550px) {
   .portfolio-img  {
-    height: 160px;
-    width: 240px;
+    height: 220px;
+    width: 310px;
   }
 }
 
